@@ -1,0 +1,59 @@
+type: edu
+files:
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Color.kt
+    visible: true
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Shape.kt
+    visible: true
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Theme.kt
+    visible: true
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Type.kt
+    visible: true
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/MainActivity.kt
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable/ic_launcher_background.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable-v24/ic_launcher_foreground.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/strings.xml
+    visible: true
+    learner_created: false
+  - name: src/main/AndroidManifest.xml
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/internals/AbstractUnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/internals/OrdersMenuUnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/Stage1UnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/Stage2UnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/Stage3UnitTest.kt
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/335/stages/1879/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Sep 2025 15:42:30 UTC"
+record: 3

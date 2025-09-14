@@ -1,0 +1,53 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>
+  Our composable MenuItem is working, but the menu has more than
+  just Fettuccine. Let's display a list of MenuItem with all
+  the recipes on menu.
+</p>
+<p>
+  The logic for each MenuItem should take into consideration
+  the stock for that specific item
+  and restrict the order's amount like was done on last stage.
+</p>
+<h5 id="objectives">Objectives</h5>
+<ol>
+<li>
+    Each composable MenuItem has
+    a recipe name,
+    a plus,
+    an order amount
+    and a minus
+    like the one that already exists for Fettuccine.
+  </li>
+<li>
+    Use the following data that represent
+    the relation between recipe name and stock amount
+    <br/><br/>
+<pre><code class="java">
+    val recipesNameToStockAmount = mapOf(
+            "Fettuccine" to 5,
+            "Risotto" to 6,
+            "Gnocchi" to 4,
+            "Spaghetti" to 3,
+            "Lasagna" to 5,
+            "Steak Parmigiana" to 2
+    )</code></pre><br/>
+</li>
+<li>
+    Create one MenuItem for each recipe
+  </li>
+<li>
+    Each recipe has it's own orderAmount and stockAmount
+    and the logic for each MenuItem should take only
+    it's own recipe into consideration
+  </li>
+<li>
+    Display all recipes as a list of MenuItem
+  </li>
+</ol>
+<h5 id="example">Example</h5>
+<p><strong>Example:</strong> <em>An example of your program</em></p>
+<picture><img alt="List menu items" height="600" name="RestaurantApp_stage4.gif" src="https://ucarecdn.com/b0f342da-0958-4cdc-a5db-18b30cac982d/" width="340"/></picture>
+
+</div>

@@ -1,0 +1,60 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>
+  We don't want to just list menu items on our app.
+  Give waiters a way to adjust
+  the amount ordered of a certain menu item.
+  Also limit the amount ordered
+  considering the amount in stock otherwise
+  the kitchen won't be able to complete the order.
+</p>
+<p>
+  Let's improve the MenuItem composable so that waiters can click
+  to increase/decrease amount ordered
+  and see the current amount.
+  Change text to red if the amount ordered is on max limit.
+</p>
+<h5 id="objectives">Objectives</h5>
+<ol>
+<li>
+    Consider <code class="java">amountOrdered</code> to be
+    the quantity to be ordered of a certain menu item.
+    The initial <code class="java">amountOrdered</code> value is <code class="java">0</code>;
+  </li>
+<li>
+    Consider <code class="java">amountStock</code> to be
+    the quantity in stock of a certain menu item.
+    The initial <code class="java">amountStock</code> for "Fettuccine" is <code class="java">5</code>;
+  </li>
+<li>Add a Text with text "+" on same line as the existing Text with text "Fettuccine";</li>
+<li>Add a onClick to "+" so that the <code class="java">amountOrdered</code> increases after it is clicked;</li>
+<li>
+    Add a Text on same line as the existing Text with text "Fettuccine"
+    set text to the current <code class="java">amountOrdered</code>;
+  </li>
+<li>
+    Add a Text with text "-" on same line as existing Text with text "Fettuccine";
+  </li>
+<li>Add a onClick to "-" so that the <code class="java">amountOrdered</code> decreases after it is clicked;</li>
+<li>
+    If the <code class="java">amountOrdered</code> has not yet achieved the <code class="java">amountStock</code>
+    make "Fettuccine" text color black
+  </li>
+<li>
+    If the <code class="java">amountOrdered</code> is equal to the <code class="java">amountStock</code>
+    make "Fettuccine" text color red
+  </li>
+<li>
+<code class="java">amountOrdered</code> of a certain menu item
+    cannot be negative nor bigger than <code class="java">amountStock</code>
+</li>
+</ol>
+<p>
+  obs: for simplification reasons we are not considering
+  the subject of dark-mode on our requirements.
+</p>
+<h5 id="example">Example</h5>
+<p><strong>Example:</strong> <em>An example of your program</em></p>
+<picture><img alt="Change order amount limited by stock amount" height="600" name="RestaurantApp_stage3.gif" src="https://ucarecdn.com/d8a76896-90a4-4c9c-be28-527c576f1b47/" width="340"/></picture>
+
+</div>
